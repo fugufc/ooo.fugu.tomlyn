@@ -1,0 +1,7 @@
+{
+  "name": "ooo.fugu.tomlyn",
+  "version": "0.14.0",
+  "displayName": "Tomlyn",
+  "description": "This is the tomlyn library wrapped in Unity Package. Currently synced to version 0.14.0.",
+  "unity": "2019.1"
+}
