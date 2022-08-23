@@ -1331,6 +1331,15 @@
             <param name="SecondPrecision">The precision of milliseconds.</param>
             <param name="Kind">The kind of datetime offset.</param>
         </member>
+        <member name="P:Tomlyn.TomlDateTime.DateTime">
+            <summary>The datetime offset.</summary>
+        </member>
+        <member name="P:Tomlyn.TomlDateTime.SecondPrecision">
+            <summary>The precision of milliseconds.</summary>
+        </member>
+        <member name="P:Tomlyn.TomlDateTime.Kind">
+            <summary>The kind of datetime offset.</summary>
+        </member>
         <member name="M:Tomlyn.TomlDateTime.GetFormatPrecision(System.Int32)">
             <summary>
             Gets the string formatter for the specified precision.
@@ -1426,6 +1435,14 @@
             By default, the list contains:
             - System.Runtime.Serialization.DataMemberAttribute
             - System.Text.Json.Serialization.JsonPropertyNameAttribute
+            </remarks>
+        </member>
+        <member name="P:Tomlyn.TomlModelOptions.IgnoreMissingProperties">
+            <summary>
+            Gets or sets the option to ignore properties in the TOML that are missing from a custom model
+            </summary>
+            <remarks>
+            By default this is false
             </remarks>
         </member>
         <member name="M:Tomlyn.TomlModelOptions.DefaultGetPropertyNameImpl(System.Reflection.PropertyInfo)">
